@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.task {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  }
+  
+  .task:hover {
+  background-color: #f5f5f5;
+  }
+  
+  .task p {
+  user-select: none; /* Prevent text selection when clicking */
+  }
